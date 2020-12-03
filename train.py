@@ -11,7 +11,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--save_to_folder',type=str, help='Name of the folder to save model to during the train process. This folder goes into the directory saved_models. On completion of each epoch the script will be creating a separate subfolder for this epoch and will be placing the current state of the model in this subfolder. Thus if you specify the parameter --save_to_folder mytestrun, then the result of training after the 0th epoch will be saved to saved_models/mytestrun/0/, after 50th epoch to saved_models/mytestrun/50/ and so on.')
 parser.add_argument('--batch_size',type=int, help='Optional. Example: --batch_size 1024. If this parameter is omitted, then the model will be trained with batch size of 4096.')
 parser.add_argument('--epochs',type=int, help='Optional. Total number of epochs to train the model for. Example: --epochs 300. If this parameter is omitted, then the model will be trained for 1000 epochs.')
-parser.add_argument('--dropout_rates',type=float,nargs=2, help='Optional. Tuple specifying dropout rates for 6th and 7th layers. Example: --dropout_rates 0.4 0.15. If omitted defaults to (0.5, 0.2).')
+parser.add_argument('--dropout_rates',type=float,nargs=2, help='Optional. Dropout rates for 6th and 7th layers. Example: --dropout_rates 0.4 0.15. If omitted defaults to (0.5, 0.2).')
 args=parser.parse_args()
 
 if(not args.save_to_folder):
