@@ -1,3 +1,7 @@
 # Traffic signs recognition in TensorFlow2
 
-**IMPORTANT:** *I will do my very best to write a detailed README before X-mas 2020. If anybody is stuck and really needs it before that, please, let me know. I'll see whether I can do it earlier.*
+This is an exercise in image recognition. The goal is to train a simple convolutional network to recognize some traffic signs.
+
+## Data
+
+The final dataset is the result of compilation from a number of sources. The basis is LISA (Laboratory for Intelligent & Safe Automobiles) dataset available [here](http://cvrr.ucsd.edu/LISA/lisa-traffic-sign-dataset.html).
