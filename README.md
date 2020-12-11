@@ -45,7 +45,7 @@ After augmentation I ended up with **6,180** reasonable quality images in 12 cat
 
 #### Negative examples
 
-After I added negative examples to the dataset I observed substantial drop in false positive rate (that is when the neural net claims to recognize an image as a traffic sign from one of the above 12 categories, while in reality there is either no traffic sign at all or a sign not from these 12 categories). Adding negative examples is easy, all what you need to care about is that you don't accidentally place a "positive" image (image with a traffic sign from one of 12 categories) in your folder with negative examples. Bulk of my negative examples came from Belgium and German traffic sign datasets (after I carefully removed from them what might be close to positive examples). I added the total of 53,820 negative examples to the dataset, thus making its total size **60,000** (6,180 positive + 53,820 = 60,000 total).
+After I added negative examples to the dataset I observed substantial drop in false positive rate (that is when the neural net claims to recognize an image as a traffic sign from one of the above 12 categories, while in reality there is either no traffic sign at all or a sign not from these 12 categories). Adding negative examples is easy, all what you need to care about is that you don't accidentally place a "positive" image (image with a traffic sign from one of 12 categories) in your folder with negative examples. Bulk of my negative examples came from Belgium and German traffic sign datasets (after I carefully removed from them what might be close to positive examples). I added 53,820 negative examples to the dataset, thus making its total size **60,000** (6,180 positive + 53,820 = 60,000 total).
 
 
 
