@@ -6,7 +6,7 @@ This is an exercise in image recognition. The goal is to train a simple convolut
 
 #### Basis of the dataset
 
-Our final dataset is the result of compilation from a number of sources. The basis is a LISA (Laboratory for Intelligent & Safe Automobiles) dataset available [here](http://cvrr.ucsd.edu/LISA/lisa-traffic-sign-dataset.html). LISA dataset is a set of frames with annotations, out of which we extracted images of traffic signs with labels. We chose to keep only 12 categories of **US traffic signs**, as they were best represented. Here is the list:
+My final dataset is the result of compilation from a number of sources. The basis is a LISA (Laboratory for Intelligent & Safe Automobiles) dataset available [here](http://cvrr.ucsd.edu/LISA/lisa-traffic-sign-dataset.html). LISA dataset is a set of frames with annotations, out of which I extracted images of traffic signs with labels. I chose to keep only 12 categories of **US traffic signs**, as they were best represented. Here is the list:
 
 1. Added Lane
 2. Left Curve
@@ -21,13 +21,13 @@ Our final dataset is the result of compilation from a number of sources. The bas
 11. Stop Ahead
 12. Yield
 
-Any traffic sign which does not fall in one of the above categories (or even if it does, but not a US sign) will not be recognized by our neural net.
+Any traffic sign which does not fall in one of the above categories (or even if it does, but not a US sign) will not be recognized by the neural net.
 
-As some of the images were in grayscale, we had to convert everything to grayscale. Next we threw away images which were too small (some signs were as small as 6x6 pixels), and we also purged very low quality images. At the end of this stage we were left with around 5,000 images.
+As some of the images were in grayscale, I had to convert everything to grayscale. Next I threw away images which were too small (some signs were as small as 6x6 pixels), and I also purged very low quality images (yes, I had to actually look at all of them). At the end of this stage I was left with around 5,000 images.
 
 #### Dataset augmentation
 
-After we formed the basis of the dataset as described above, the images were not even nearly uniformly distributed between the selected 12 categories. Some categories had noticeably smaller number of images than the other. Initial training confirmed that the dataset will benefit from augmentation, with focus of this augmentation on the under-represented categories. We augmented the dataset in three different ways:
+After I formed the basis of the dataset as described above, the images were not even nearly uniformly distributed between the selected 12 categories. Some categories had noticeably smaller number of images than the other. Initial training confirmed that the dataset will benefit from augmentation, with focus of this augmentation on the under-represented categories. I augmented the dataset in three different ways:
 
 ##### 1) Youtube
 
