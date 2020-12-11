@@ -35,7 +35,7 @@ This proved to be time consuming, but nevertheless the most effective way. There
 
 ##### 2) Drive around and take pictures
 
-I asked my wife to take pictures of traffic signs as we drive. We got 250 photos, out of which only under 100 were used for the selected 12 categories. We live in Canada and our left curve, right curve, pedestriant crossing signs differ from the US versions. We also deliberately took pictures of signs outside of 12 categories to use as negative examples (more on this later).
+I asked my wife to take pictures of traffic signs as we drive. We got 250 photos, out of which only under 100 were used for the selected 12 categories. We live in Canada and our left curve, right curve, pedestriant crossing signs differ from the US versions. We also deliberately took pictures of signs outside of 12 categories to use as negative examples (more on this [later](#negative-examples)).
 
 ##### 3) European datasets
 
@@ -44,6 +44,10 @@ I asked my wife to take pictures of traffic signs as we drive. We got 250 photos
 After augmentation I ended up with **6,180** reasonable quality images in 12 categories.
 
 #### Negative examples
+
+After I added negative examples to the dataset I observed substantial drop in false positive rate (that is when the neural net claims to recognize an image as a traffic sign from one of the above 12 categories, while in reality there is either no traffic sign at all or a sign not from these 12 categories). Adding negative examples is easy, all what you need to care about is that you don't accidentally place a "positive" image (image with a traffic sign from one of 12 categories) in your folder with negative examples. Bulk of my negative examples came from Belgium and German traffic sign datasets (after I carefully removed from them what might be close to positive examples). I added the total of 53,820 negative examples to the dataset, thus making its total size **60,000** - (6,180 positive + 53,820 = 60,000 total).
+
+
 
  
 
