@@ -39,7 +39,7 @@ I asked my wife to take pictures of traffic signs as we drive. We got 250 photos
 
 ##### 3) European datasets
 
-[Belgium](https://btsd.ethz.ch/shareddata/) and German traffic sign datasets are publicly available. European datasets helped a lot with negative examples (more on this later), but 
+[Belgium traffic sign dataset](https://btsd.ethz.ch/shareddata/) is publicly available, [German dataset](https://benchmark.ini.rub.de?section=gtsrb&subsection=dataset) was available for downloading when this work was done (maybe you still can download it from somewhere else. European datasets helped a lot with negative examples (more on this later), but 
 
 
 
