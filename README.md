@@ -21,6 +21,6 @@ The final dataset is the result of compilation from a number of sources. The bas
 11. Stop Ahead
 12. Yield
 
-Any sign which does not fall in one of the above categories will not be recognized by our neural net.
+Any traffic sign which does not fall in one of the above categories (or even if it does, but not a US sign) will not be recognized by our neural net.
 
-Next we threw away images which were too small (some signs were as small as 6x6 pixels), and we also purged very low quality images.  
+Next we threw away images which were too small (some signs were as small as 6x6 pixels), and we also purged very low quality images. As some of the images were in grayscale, we had to convert everything to grayscale.
