@@ -49,6 +49,15 @@ Adding negative examples is easy, all what you need to care about is that you do
 
 When labeling negative examples in vector space I was faced with a choice. One option is to label them with 12 dimensional vector with zeros everywhere (image does not belong to any of 12 categories), second option is to label them with 13 dimensional vector with 1 in 0th position and zeros everywhere else (belongs to the category 0, while all positive images will have 0 in 0th position and 1 somewhere else). I had somewhat better results with the option 2 (13 dimensional space), so this is what's implemented in the code presented.
 
+#### Final training dataset files
+
+#### Test set and scoring system
+
+### Convolutional Network used
+
+### How to run training/testing and my results
+
+
 
 
  
