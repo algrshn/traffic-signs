@@ -29,11 +29,11 @@ As some of the images were in grayscale, I had to convert everything to grayscal
 
 After I formed the basis of the dataset as described above, the images were not even nearly uniformly distributed between the selected 12 categories. Some categories had noticeably smaller number of images than the other. Initial training confirmed that the dataset will benefit from augmentation, with focus of this augmentation on the under-represented categories. I augmented the dataset in three different ways:
 
-##### 1) Youtube
+    ##### 1) Youtube
 
 This proved to be time consuming, but nevertheless the most effective way. There are lost of dash cam videos on youtube. You can stop video when you see a traffic sign which you want for your dataset, make a print screen, and later (after you aggregated lots of print screens) crop and label the pictures. As the basis dataset had lots of stop signs in it, but not so many merge, lane ends, and yield signs, I focused more on highway than on city videos. I spent around 30 hours on watching youtube, and generated around 500-600 new images from that. It is not a lot percentage wise, but as those images were mostly in badly needed categories, this improved accuracy very substantially.
 
-##### 2) Drive around and take pictures
+    ##### 2) Drive around and take pictures
 
 
 
