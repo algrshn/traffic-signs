@@ -41,7 +41,7 @@ I asked my wife to take pictures of traffic signs as we drive. We got 250 photos
 
 [Belgium traffic sign dataset](https://btsd.ethz.ch/shareddata/) is publicly available at the time of writing, [German dataset](https://benchmark.ini.rub.de?section=gtsrb&subsection=dataset) was available for downloading when this work was done (maybe you still can download it from somewhere else). As European stop signs look the same as the US, I took this category from the above datasets. That was easy, but didn't make much difference as I already had a good number of stop signs in the dataset.
 
-After augmentation I ended up with 6,180 images in 12 categories.
+After augmentation I ended up with **6,180** images in 12 categories.
 
 #### Negative examples
 
