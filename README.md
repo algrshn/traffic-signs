@@ -65,18 +65,25 @@ Ynpy_url='https://drive.google.com/uc?id=1m0bHHw9RWUaJbuNtTAxL12kP90YkUlsA'
 
 As I only had to deal with 12 categories, I could afford a luxury of building a test set completely separately from the training set. Splitting one dataset into train and test sets (which is a regular practice) might sometimes give us a false sense that everything is OK, while it is not. Neural net might learn "shortcuts" instead of real features, then successfully apply the results of this "shortcut" learning to test examples, which were obtained by the same methods (the same operator, on the same day with the same light conditions, with the same camera, and the same filming techniques, etc ...). If, however, test set images are acquired by completely different means, then we expect the results of testing be more rigorous.
 
-Here is what I did. First, I downloaded a total of **175 images** of traffic signs belonging to my 12 categories from the Internet. These are some examples.
+Here is what I did. First, I downloaded a total of **175 images** of traffic signs belonging to my 12 categories from the Internet. These are some examples:
 
 ![image of traffic sign from 12 categories](val_img/13.jpg) ![image of traffic sign from 12 categories](val_img/98.jpg)  ![image of traffic sign from 12 categories](val_img/155.jpg)
 ##### Examples of test images of traffic signs belonging to my 12 categories
 
+&nbsp;
 
-Then I downloaded a total of **130 images** of traffic signs not belonging to my 12 categories from the Internet.
+&nbsp;
+
+Then I downloaded a total of **130 images** of traffic signs not belonging to my 12 categories from the Internet:
 
 ![image of traffic sign from 12 categories](val_img/13.jpg) ![image of traffic sign from 12 categories](val_img/98.jpg)  ![image of traffic sign from 12 categories](val_img/155.jpg)
 ##### Examples of test images of traffic signs not belonging to my 12 categories
 
-And finally, I downloaded **50** completely irrelevant images.
+&nbsp;
+
+&nbsp;
+
+And finally, I downloaded **50** completely irrelevant images:
 
 ![image of traffic sign from 12 categories](val_img/13.jpg) ![image of traffic sign from 12 categories](val_img/98.jpg)  ![image of traffic sign from 12 categories](val_img/155.jpg)
 ##### Examples of test images showing something fully irrelevant
