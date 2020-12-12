@@ -92,6 +92,11 @@ And finally, I downloaded **50** completely irrelevant images:
 
 &nbsp;
 
+Numpy arrays pertaining to all the test images are in val_npy/ folder. If you want to see the original photos, you can get them from my google drive:
+```
+https://drive.google.com/file/d/1vH-rfMu7qzkicp_McVffsYXMLUxN9nPF/view?usp=sharing
+```
+
 
 ### Convolutional Network used
 
