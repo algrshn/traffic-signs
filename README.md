@@ -70,12 +70,16 @@ Here is what I did. First, I downloaded a total of **175 images** of traffic sig
 ##### Examples of images of traffic signs belonging to my 12 categories
 ![image of traffic sign from 12 categories](val_img/13.jpg) ![image of traffic sign from 12 categories](val_img/98.jpg)  ![image of traffic sign from 12 categories](val_img/155.jpg)
 
+
+
 Then I downloaded a total of **130 images** of traffic signs not belonging to my 12 categories from the Internet.
 
 ##### Examples of images of traffic signs not belonging to my 12 categories
 ![image of traffic sign from 12 categories](val_img/13.jpg) ![image of traffic sign from 12 categories](val_img/98.jpg)  ![image of traffic sign from 12 categories](val_img/155.jpg)
 
-And finally, I downloaded **50** completely irrelevant images
+
+
+And finally, I downloaded **50** completely irrelevant images.
 
 ##### Examples of irrelevan images
 ![image of traffic sign from 12 categories](val_img/13.jpg) ![image of traffic sign from 12 categories](val_img/98.jpg)  ![image of traffic sign from 12 categories](val_img/155.jpg)
