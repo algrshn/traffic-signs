@@ -67,7 +67,7 @@ As I only had to deal with 12 categories, I could afford a luxury of building a 
 
 Here is what I did. First I downloaded a total of 175 images of traffic signs belonging to my 12 categories from the Internet. These are some examples:
 
-
+![image of traffic sign from 12 categories](val_img/13.jpg)
 
 ### Convolutional Network used
 
