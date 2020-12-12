@@ -88,6 +88,10 @@ And finally, I downloaded **50** completely irrelevant images:
 ![image of traffic sign from 12 categories](val_img/13.jpg) ![image of traffic sign from 12 categories](val_img/98.jpg)  ![image of traffic sign from 12 categories](val_img/155.jpg)
 ##### Examples of test images showing something fully irrelevant
 
+&nbsp;
+
+&nbsp;
+
 
 ### Convolutional Network used
 
