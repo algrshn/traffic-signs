@@ -55,7 +55,7 @@ When labeling negative examples in vector space I was faced with a choice. One o
 
 ### Convolutional Network used
 
-### How to run training/testing and my results
+### How to run training/testing, and my results
 
 
 
