@@ -99,6 +99,20 @@ https://drive.google.com/file/d/1vH-rfMu7qzkicp_McVffsYXMLUxN9nPF/view?usp=shari
 
 Now, when the neural net had too low confidence in its prediction of a traffic sign (it thinks it is a Merge sign, but it is only 17% sure), I wanted it to be more cautious. I introduced a threshold parameter, and if the highest probability of a positive answer is below the threshold, then the neural net will return 'Detection failed'. Basically, I am saying that classifying a Stop sign as Merge is much worse than saying that nothing was detected. 'Detection failed' is also returned if the neural net classifies the image into 13th category (no traffic sign from our 12 categories). Accuracy checking scripts allow user to set the threshold parameter. Its default value is 0.5.
 
+I think claiming that Eiffel tower or a golf ball is a Lane ends sign is a bigger error than a failure to detect a Lane ends where it is present. I also think that misclassifying a sign is a bigger error than a failure to detect it. Hence my scoring system:
+
+- The lower the score the better. An ideal infallible model will return a zero score. 
+- Correct classification of traffic sign adds 0 to the score.
+- Correct 'Detection failed' (correct statement that there is no traffic sign from 12 categories present) adds 0 to the score.
+- Each misclassification of a traffic sign adds 1 to the score
+- Each failure to detect a traffic sign from 12 categories where it was present adds 0.5 to the score.
+
+My best trained model has a score of 2.5:
+- on 172 out of 175 images with traffic signs from 12 categories it returns correct answers - add 0 to the score
+- on 3 out of 175 images with traffic signs from 12 categories it returns 'Detection failed' - add 1.5 to the score
+- on 1 out of 130 images w/o traffic signs from 12 categories it returns a positive answer - add 1 to the score
+- on all 50 irrelevant images it returns 'Detection failed' - add 0 to the score
+
  
 
 ### Convolutional Network used
