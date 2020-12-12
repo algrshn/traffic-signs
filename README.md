@@ -85,7 +85,7 @@ Then I downloaded a total of **130 images** of traffic signs not belonging to my
 
 And finally, I downloaded **50** completely irrelevant images:
 
-![image of traffic sign from 12 categories](imgs_for_readme/signs_in_dataset/98.jpg) ![image of traffic sign from 12 categories](imgs_for_readme/signs_in_dataset/98.jpg)  ![image of traffic sign from 12 categories](imgs_for_readme/signs_in_dataset/98.jpg)
+<img src='imgs_for_readme/irrelevant_images/31.jpg' alt='image of traffic sign from 12 categories' height="64" />   <img src='imgs_for_readme/irrelevant_images/31.jpg' alt='image of traffic sign from 12 categories' height="64" />   <img src='imgs_for_readme/irrelevant_images/31.jpg' alt='image of traffic sign from 12 categories' height="64" />  
 ##### Examples of test images showing something fully irrelevant
 
 &nbsp;
