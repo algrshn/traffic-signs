@@ -67,7 +67,7 @@ As I only had to deal with 12 categories, I could afford a luxury of building a 
 
 Here is what I did. First, I downloaded a total of **175 images** of traffic signs belonging to my 12 categories from the Internet. These are some examples:
 
-![image of traffic sign from 12 categories](val_img/13.jpg) ![image of traffic sign from 12 categories](val_img/98.jpg)  ![image of traffic sign from 12 categories](val_img/155.jpg)
+![image of traffic sign from 12 categories](98.jpg) ![image of traffic sign from 12 categories](imgs_for_readme/signs_in_dataset/98.jpg)  ![image of traffic sign from 12 categories](imgs_for_readme/signs_in_dataset/98.jpg)
 ##### Examples of test images of traffic signs belonging to my 12 categories
 
 &nbsp;
@@ -76,7 +76,7 @@ Here is what I did. First, I downloaded a total of **175 images** of traffic sig
 
 Then I downloaded a total of **130 images** of traffic signs not belonging to my 12 categories from the Internet:
 
-![image of traffic sign from 12 categories](val_img/13.jpg) ![image of traffic sign from 12 categories](val_img/98.jpg)  ![image of traffic sign from 12 categories](val_img/155.jpg)
+![image of traffic sign from 12 categories](imgs_for_readme/signs_in_dataset/98.jpg) ![image of traffic sign from 12 categories](imgs_for_readme/signs_in_dataset/98.jpg)  ![image of traffic sign from 12 categories](imgs_for_readme/signs_in_dataset/98.jpg)
 ##### Examples of test images of traffic signs not belonging to my 12 categories
 
 &nbsp;
@@ -85,7 +85,7 @@ Then I downloaded a total of **130 images** of traffic signs not belonging to my
 
 And finally, I downloaded **50** completely irrelevant images:
 
-![image of traffic sign from 12 categories](val_img/13.jpg) ![image of traffic sign from 12 categories](val_img/98.jpg)  ![image of traffic sign from 12 categories](val_img/155.jpg)
+![image of traffic sign from 12 categories](imgs_for_readme/signs_in_dataset/98.jpg) ![image of traffic sign from 12 categories](imgs_for_readme/signs_in_dataset/98.jpg)  ![image of traffic sign from 12 categories](imgs_for_readme/signs_in_dataset/98.jpg)
 ##### Examples of test images showing something fully irrelevant
 
 &nbsp;
