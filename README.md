@@ -119,6 +119,9 @@ My best trained model has a score of 2.5:
 
 ### Convolutional Network used
 
+Here is the convolutional network I used:
+<img src='imgs_for_readme/fig2.jpg' alt='CNN' width="400" />
+
 ### How to run training/testing, and my results
 
 
