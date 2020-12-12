@@ -81,7 +81,7 @@ Then I downloaded a total of **130 images** of traffic signs not belonging to my
 
 And finally, I downloaded **50** completely irrelevant images.
 
-##### Examples of test images showing something fully irrelevant.
+##### Examples of test images showing something fully irrelevant
 ![image of traffic sign from 12 categories](val_img/13.jpg) ![image of traffic sign from 12 categories](val_img/98.jpg)  ![image of traffic sign from 12 categories](val_img/155.jpg)
 
 ### Convolutional Network used
