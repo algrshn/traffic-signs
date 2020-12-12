@@ -108,6 +108,7 @@ I think claiming that Eiffel tower or a golf ball is a Lane ends sign is a bigge
 - Each failure to detect a traffic sign from 12 categories where it was present adds 0.5 to the score.
 
 &nbsp;
+
 My best trained model has a score of 2.5:
 - on 172 out of 175 images with traffic signs from 12 categories it returns correct answers - add 0 to the score
 - on 3 out of 175 images with traffic signs from 12 categories it returns 'Detection failed' - add 1.5 to the score
