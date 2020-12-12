@@ -127,6 +127,18 @@ Here is the convolutional network I used:
 
 ### How to run training/testing, and my results
 
+train.py what it takes, where it writes, descr of params
+
+sample_results download
+
+check_train_accuracy.py what it does, descr of params
+
+find_best_epoch.py what it does, descr pf params
+
+show_detailed_score.py what it does, descr of params
+
+check_photo.py what it does, descr of params
+
 
 
 
