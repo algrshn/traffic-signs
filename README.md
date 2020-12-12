@@ -85,7 +85,7 @@ Then I downloaded from the Internet (or used my own) a total of **130 images** o
 
 And finally, I downloaded **50** completely irrelevant images:
 
-<img src='imgs_for_readme/irrelevant_images/1.jpg' alt='image of traffic sign from 12 categories' height="64" />   <img src='imgs_for_readme/irrelevant_images/2.jpg' alt='image of traffic sign from 12 categories' height="64" />   <img src='imgs_for_readme/irrelevant_images/4.jpg' alt='image of traffic sign from 12 categories' height="64" />  <img src='imgs_for_readme/irrelevant_images/5.jpg' alt='image of traffic sign from 12 categories' height="64" />   <img src='imgs_for_readme/irrelevant_images/9.jpg' alt='image of traffic sign from 12 categories' height="64" />   <img src='imgs_for_readme/irrelevant_images/41.jpg' alt='image of traffic sign from 12 categories' height="64" />  
+<img src='imgs_for_readme/irrelevant_images/1.jpg' alt='image of traffic sign from 12 categories' height="64" />   <img src='imgs_for_readme/irrelevant_images/12.jpg' alt='image of traffic sign from 12 categories' height="64" />   <img src='imgs_for_readme/irrelevant_images/4.jpg' alt='image of traffic sign from 12 categories' height="64" />  <img src='imgs_for_readme/irrelevant_images/5.jpg' alt='image of traffic sign from 12 categories' height="64" />   <img src='imgs_for_readme/irrelevant_images/9.jpg' alt='image of traffic sign from 12 categories' height="64" />   <img src='imgs_for_readme/irrelevant_images/41.jpg' alt='image of traffic sign from 12 categories' height="64" />  
 ##### Examples of test images showing something fully irrelevant
 
 &nbsp;
