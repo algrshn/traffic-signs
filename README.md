@@ -51,7 +51,7 @@ When labeling negative examples in vector space I was faced with a choice. One o
 
 #### Final training dataset files
 
-Training dataset consists of two numpy files X.npy - images, and Y.npy - labels. Array in X.npy has a shape (60000,32,32,1) - 60,000 images scaled to 32x32 pixels, 1 channel (grayscale). Array in Y.npy has a shape (60000,13) - labels for 60,000 images, each label is a 13 dim vector with single 1 and twelve zeros. Thus \[0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0\] labels category #4 - Keep Right, \[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1\] labels negative example (no traffic sign from 12 categories).
+Training dataset consists of two numpy files: X.npy - images, and Y.npy - labels. Array in X.npy has a shape (60000,32,32,1) - 60,000 images scaled to 32x32 pixels, 1 channel (grayscale). Array in Y.npy has a shape (60000,13) - labels for 60,000 images, each label is a 13 dim vector with single 1 and twelve zeros. Thus \[0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0\] labels category #4 - Keep Right, \[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1\] labels negative example (no traffic sign from 12 categories).
 
 Files X.npy and Y.npy get loaded into dataset/ folder first time when you run training. Alternatively you can download them manually from my google drive:
 ```
