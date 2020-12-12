@@ -97,6 +97,9 @@ Numpy arrays pertaining to all the test images are in val_npy/ folder. If you wa
 https://drive.google.com/file/d/1vH-rfMu7qzkicp_McVffsYXMLUxN9nPF/view?usp=sharing
 ```
 
+Now, when the neural net had too low confidence in its prediction of a traffic sign (it thinks it is a Merge sign, but it is only 17% sure), I wanted it to be more cautious. I introduced a threshold parameter, and if the highest probability of a positive answer is below the threshold, then the neural net will return 'Detection failed'. Basically, I am saying that classifying a Stop sign as Merge is much worse than saying that nothing was detected. 'Detection failed' is also returned if the neural net classifies the image into 13th category (no traffic sign from our 12 categories). Accuracy checking scripts allow user to set the threshold parameter. Its default value is 0.5.
+
+ 
 
 ### Convolutional Network used
 
