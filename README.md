@@ -74,7 +74,7 @@ Here is what I did. First, I downloaded a total of **175 images** of traffic sig
 
 &nbsp;
 
-Then I downloaded a total of **130 images** of traffic regulation objects not belonging to my 12 categories from the Internet:
+Then I downloaded from the Internet (or used my own) a total of **130 images** of traffic regulation objects not belonging to my 12 categories :
 
 <img src='imgs_for_readme/signs_not_in_dataset/15.jpg' alt='image of traffic sign from 12 categories' height="64" />   <img src='imgs_for_readme/signs_not_in_dataset/90.jpg' alt='image of traffic sign from 12 categories' height="64" />   <img src='imgs_for_readme/signs_not_in_dataset/120.jpg' alt='image of traffic sign from 12 categories' height="64" />  <img src='imgs_for_readme/signs_not_in_dataset/2.jpg' alt='image of traffic sign from 12 categories' height="64" />   <img src='imgs_for_readme/signs_not_in_dataset/57.jpg' alt='image of traffic sign from 12 categories' height="64" />   <img src='imgs_for_readme/signs_not_in_dataset/111.jpg' alt='image of traffic sign from 12 categories' height="64" />  
 ##### Examples of test images of traffic signs not belonging to my 12 categories
