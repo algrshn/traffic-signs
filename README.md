@@ -101,7 +101,7 @@ Now, when the neural net had too low confidence in its prediction of a traffic s
 
 I think claiming that Eiffel tower or a golf ball is a Lane ends sign is a bigger error than a failure to detect a Lane ends where it is present. I also think that misclassifying a sign is a bigger error than a failure to detect it. Hence my scoring system:
 
--The lower the score the better. An ideal infallible model will return a zero score. 
+- The lower the score the better. An ideal infallible model will return a zero score. 
 - Correct classification of traffic sign adds 0 to the score.
 - Correct 'Detection failed' (correct statement that there is no traffic sign from 12 categories present) adds 0 to the score.
 - Each misclassification of a traffic sign adds 1 to the score
