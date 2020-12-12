@@ -2,6 +2,8 @@
 
 This is an exercise in image recognition. The goal is to train a simple convolutional network to recognize some traffic signs.
 
+&nbsp;
+
 ### Data
 
 #### Basis of the dataset
@@ -113,13 +115,15 @@ My best trained model has a score of 2.5:
 - on 1 out of 130 images w/o traffic signs from 12 categories it returns a positive answer - add 1 to the score
 - on all 50 irrelevant images it returns 'Detection failed' - add 0 to the score
 
- 
+&nbsp; 
 
 ### Convolutional Network used
 
 Here is the convolutional network I used:
 
 <img src='imgs_for_readme/fig2.jpg' alt='CNN' width="800" />
+
+&nbsp;
 
 ### How to run training/testing, and my results
 
