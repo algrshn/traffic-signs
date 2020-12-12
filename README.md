@@ -67,7 +67,7 @@ As I only had to deal with 12 categories, I could afford a luxury of building a 
 
 Here is what I did. First, I downloaded a total of **175 images** of traffic signs belonging to my 12 categories from the Internet. These are some examples:
 
-<img src='imgs_for_readme/signs_in_dataset/17.jpg' alt='image of traffic sign from 12 categories' height="64" />   <img src='imgs_for_readme/signs_in_dataset/98.jpg' alt='image of traffic sign from 12 categories' height="64" />   <img src='imgs_for_readme/signs_in_dataset/121.jpg' alt='image of traffic sign from 12 categories' height="64" />   
+<img src='imgs_for_readme/signs_in_dataset/24.jpg' alt='image of traffic sign from 12 categories' height="64" />   <img src='imgs_for_readme/signs_in_dataset/98.jpg' alt='image of traffic sign from 12 categories' height="64" />   <img src='imgs_for_readme/signs_in_dataset/140.jpg' alt='image of traffic sign from 12 categories' height="64" />   
 ##### Examples of test images of traffic signs belonging to my 12 categories
 
 &nbsp;
