@@ -131,7 +131,7 @@ Here is the convolutional network I used:
 
 To train the neural net you need to run the script train.py. Here is an example:
 ```
-$ python3 train.py --save_to_folder testrun --batch_size 1024 --epochs 2000 --dropout_rates 0.4 0.3
+$ python3 train.py --save_to_folder testrun --batch_size 1024 --epochs 2000 --dropout_rates 0.6 0.3
 ```
 
 The first parameter --save_to_folder is required, the other three parameters are optional.
