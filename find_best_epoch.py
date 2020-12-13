@@ -158,6 +158,6 @@ for j in range(args.epochs):
         best_score=score
         best_epoch=j
 
-print(best_score)
-print(best_epoch)                 
+print("Best average score: {}".format(best_score))
+print("Best epoch: {}".format(best_epoch))                 
  

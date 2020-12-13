@@ -150,6 +150,8 @@ You can download the results of my best training run from my google drive:
 https://drive.google.com/file/d/1TLnL1RY16N4uWlLTEGMqkU6ppiPlZqd8/view?usp=sharing
 ``` 
 
+Extract the tar.gz and place the resulting folder sample_results in saved_models/
+
 #### Check train accuracy
 
 To check train accuracy of the trained model you need to run the script check_train_accuracy.py. Here is an example:
@@ -157,10 +159,45 @@ To check train accuracy of the trained model you need to run the script check_tr
 $ python3 check_train_accuracy.py --path_to_trained_model sample_results/999 --thr 0.75
 ```
 
+The first parameter --path_to_trained_model is required, the second --thr (threshold) is optional.
 
-find_best_epoch.py what it does, descr pf params
+--path_to_trained_model takes the path to the trained model. You need to specify the particular epoch. In our example it is epoch 999.
 
-show_detailed_score.py what it does, descr of params
+--thr (threshold value) if not specified defaults to 0.5
+
+If you run the above example on my results from sample_results you will see that on positive part of the dataset (signs present) the neural net correctly classifies all 6,180 images of traffic signs, and on negative part (signs not present) it correctly returns 'Detection failed' in all 53,820 cases.
+
+#### Find the best epoch
+
+To determine the epoch which gives the lowest score on the test set you need to run the script find_best_epoch.py. Here is an example:
+```
+$ python3 find_best_epoch.py --folder_to_load sample_results --epochs 1000
+```
+
+Both parameters are required.
+
+--folder_to_load takes the folder with the trained model (inside it it expects to find subfolders corresponding to different epochs)
+
+--epochs - number of epochs to check
+
+Note that it doesn't ask for threshold value. It calculates an average of scores for thr=0.5 and thr=0.75.
+
+In our example find_best_epoch will determine that epoch# 979 is the best with average score of 3.0.
+
+#### Show detailed score
+
+If you want to see a detailed breakdown of score for a particular epoch (I always only used it for the best epoch after the best epoch was determined by find_best_epoch.py), then you use the script show_detailed_score.py. Here is an example:
+```
+$ python3 show_detailed_score.py --path_to_trained_model sample_results/979 --thr 0.5
+```
+
+The first parameter --path_to_trained_model is required, the second --thr (threshold) is optional.
+
+--path_to_trained_model takes the path to the trained model. You need to specify the particular epoch. In our example it is epoch 979.
+
+--thr (threshold value) if not specified defaults to 0.5
+
+If you run the above example on my results from sample_results you will see that 
 
 check_photo.py what it does, descr of params
 
