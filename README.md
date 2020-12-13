@@ -127,7 +127,7 @@ Here is the convolutional network I used:
 
 ### How to run training/testing, and my results
 
-##### Train the model
+#### Train the model
 
 To train the neural net you need to run the script train.py. Here is an example:
 ```
@@ -150,7 +150,7 @@ You can download the results of my best training run from my google drive:
 https://drive.google.com/file/d/1TLnL1RY16N4uWlLTEGMqkU6ppiPlZqd8/view?usp=sharing
 ``` 
 
-##### Check train accuracy
+#### Check train accuracy
 
 check_train_accuracy.py what it does, descr of params
 
