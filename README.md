@@ -197,10 +197,20 @@ The first parameter --path_to_trained_model is required, the second --thr (thres
 
 --thr (threshold value) if not specified defaults to 0.5
 
-If you run the above example on my results from sample_results you will see that 
+If you run the above example on my results from sample_results you will see that on irrelevant images it always correctly returns 'Detection failed', it erroneously classifies one image from 'Signs not in the dataset' part of test dataset (this part consists of traffic signs not from 12 categories), it correctly classifies 172 out of 175 positive images, and it returns 'Detection failed' in the remaining 3 cases. The total score is 2.5.
 
-check_photo.py what it does, descr of params
 
+#### Check arbitrary photos
+
+Run check_photo.py script if you want to check an arbitrary photo for one of 12 traffic signs the net is trained on. Here is an example:
+```
+$ python3 check_photo.py --path_to_trained_model sample_results/979 --imgfile path/to/your/pic.jpg
+```
+Both parameters are required.
+
+--path_to_trained_model takes the path to the trained model. You need to specify the particular epoch. In our example it is epoch 979.
+
+--imgfile - path to the image file you want to check.
 
 
 
