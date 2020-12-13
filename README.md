@@ -152,7 +152,11 @@ https://drive.google.com/file/d/1TLnL1RY16N4uWlLTEGMqkU6ppiPlZqd8/view?usp=shari
 
 #### Check train accuracy
 
-check_train_accuracy.py what it does, descr of params
+To check train accuracy of the trained model you need to run the script check_train_accuracy.py. Here is an example:
+```
+$ python3 check_train_accuracy.py --path_to_trained_model sample_results/999 --thr 0.75
+```
+
 
 find_best_epoch.py what it does, descr pf params
 
