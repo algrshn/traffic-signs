@@ -1,4 +1,4 @@
-# Traffic signs recognition in TensorFlow2
+# Traffic sign recognition in TensorFlow2
 
 This is an exercise in image recognition. The goal is to train a simple convolutional network to recognize some traffic signs.
 
